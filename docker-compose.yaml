@@ -14,7 +14,6 @@ services:
        MYSQL_USER: php
        MYSQL_PASSWORD: php
 
-
    phpmyadmin:
      depends_on:
        - db
